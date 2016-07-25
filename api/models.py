@@ -136,7 +136,7 @@ class Account(models.Model):
     error = models.ForeignKey(Error, on_delete=models.CASCADE, null=True)
 
     # TIPAGOS Fields
-    product_code = models.IntegerField(default=59)
+    product_code = models.IntegerField(default=99)
 
     # User Fields
     name = models.CharField(max_length=100)
